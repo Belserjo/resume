@@ -136,9 +136,6 @@ body {
   margin-bottom: 20px;
   max-width: 100%;
 }
-.card:last-child {
-  margin-bottom: 0;
-}
 .content__list {
   padding-left: 30px;
 }
