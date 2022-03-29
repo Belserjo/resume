@@ -22,7 +22,7 @@ h6 {
 body {
   box-sizing: border-box;
   font-family: "Caveat", "Open Sans", sans-serif;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 500;
   background-color: #edeef0;
 }
@@ -136,6 +136,7 @@ body {
   margin-bottom: 20px;
   max-width: 100%;
 }
+
 .content__list {
   padding-left: 30px;
 }
@@ -180,7 +181,7 @@ body {
 }
 
 table {
-  margin: 0 auto;
+  padding-left: 30px;
   border-collapse: collapse;
 }
 
@@ -195,7 +196,7 @@ table tr {
   border-bottom: 2px solid rgb(163 171 194);
 }
 table td {
-  padding: 5px 10px;
+    padding: 5px 30px;
 }
 .form {
   border: none;
@@ -265,6 +266,9 @@ table td {
   .social__iner .photo {
     margin-bottom: 20px;
   }
+  table td {
+    padding: 5px 5px;
+  }
   .form__item {
     flex-direction: column;
   }
@@ -278,4 +282,16 @@ table td {
   .form__item textarea {
     width: 100%;
   }
+}
+
+@media (max-width: 450px) {
+table th {
+  text-transform: capitalize;
+}
+.way__list img {
+  max-width: 40px;
+}
+.way__list li {
+  flex-direction: column;
+}
 }
