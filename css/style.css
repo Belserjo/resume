@@ -247,7 +247,7 @@ table td {
 }
 .btn__item input:hover {
   background-color: #fefefe;
-  color: rgb(163 171 194);
+  color: black;
 }
 .footer {
   height: 60px;
