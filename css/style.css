@@ -327,14 +327,14 @@ table td {
     width: 100%;
   }
   .form__item label {
-    width: 220px;
+    width: 200px;
     flex: auto;
   }
   .form__item input {
-    width: 220px;
+    width: 200px;
   }
   .form__item textarea {
-    width: 220px;
+    width: 200px;
   }
   .buttons {
     gap: 0;
