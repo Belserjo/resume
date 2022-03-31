@@ -322,19 +322,19 @@ table td {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 320px) {
   form {
     width: 100%;
   }
   .form__item label {
-    width: 200px;
+    width: 250px;
     flex: auto;
   }
   .form__item input {
     width: 200px;
   }
   .form__item textarea {
-    width: 200px;
+    width: 250px;
   }
   .buttons {
     gap: 0;
